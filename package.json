@@ -1,0 +1,21 @@
+{
+  "name": "webdocs",
+  "version": "1.0.0",
+  "description": "前端文档",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs --host",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/ppccjs/webdocs.git"
+  },
+  "author": "ppc",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.0.0-rc.20"
+  }
+}
