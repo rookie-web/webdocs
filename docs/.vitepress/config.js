@@ -16,5 +16,5 @@ export default {
     logo: '/image/logo.svg',
   },
   base:'/webdocs/',
-  outDir: '../public'
+  // outDir: '../public'
 }
