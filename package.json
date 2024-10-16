@@ -16,6 +16,7 @@
   "author": "ppc",
   "license": "ISC",
   "devDependencies": {
-    "vitepress": "^1.0.0-rc.20"
+    "element-plus": "^2.8.5",
+    "vitepress": "^1.4.1"
   }
 }
