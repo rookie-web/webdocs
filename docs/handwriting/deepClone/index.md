@@ -1,10 +1,8 @@
+# 实现深拷贝
 
-# 各种手写实现
-
-## 实现深拷贝
 > 递归实现，`WeakMap` 解决循环引用
 
-``` js:line-numbers
+```js:line-numbers
 const deepClone = value => {
 	const cache = new WeakMap()
 	function _deepClone(value) {
@@ -12,7 +10,7 @@ const deepClone = value => {
 			return value
 		}
 		const res = Array.isArray(value) ? [] : {}
-		
+
 		if (cache.has(value)) {
 			return cache.get(value)
 		}
@@ -26,9 +24,4 @@ const deepClone = value => {
 	}
 	return _deepClone(value)
 }
-```
-
-## 手写promise.all
-``` js:line-numbers
-
 ```

@@ -63,10 +63,6 @@ export default {
       link: '/interview/optimize/'
     },
     {
-      text: '手写实现',
-      link: '/interview/handwriting/'
-    },
-    {
       text: '工程化',
       items: [
         { text: 'webpack', link: '/interview/webpack/' },
@@ -88,6 +84,16 @@ export default {
     {
       text: '下拉分页选择',
       link: '/common-components/select-pager/'
+    }
+  ],
+  '/handwriting/': [
+    {
+      text: '深拷贝',
+      link: '/handwriting/deepClone/'
+    },
+    {
+      text: 'Promise.all',
+      link: '/handwriting/promiseAll/'
     }
   ],
   '/': []

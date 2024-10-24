@@ -12,6 +12,10 @@ export default [
     link: '/interview/html/'
   },
   {
+    text: '手写实现',
+    link: '/handwriting/deepClone/'
+  },
+  {
     text: '通用组件',
     link: '/common-components/select-pager/'
   },
