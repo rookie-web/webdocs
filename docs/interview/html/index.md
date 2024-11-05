@@ -1,6 +1,4 @@
-<script setup>
-  import SelectPager from '../../components/select-pager/index.vue'
-</script>
+
 
 # HTML5 等基础相关
 
@@ -16,8 +14,3 @@
 8. 通信协议 `websoket`
 9. dom 查询方法。`querySelector` 和 `querySelectorAll`
 
-<SelectPager></SelectPager>
-
-::: details 查看源码
-<<< @/components/select-pager/index.vue
-:::
