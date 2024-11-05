@@ -13,7 +13,7 @@ export default [
   },
   {
     text: '手写实现',
-    link: '/handwriting/deepClone/'
+    link: '/handwriting/deep-clone/'
   },
   {
     text: '通用组件',

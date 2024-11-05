@@ -76,8 +76,8 @@ export default {
       link: '/best-practice/webp-photo/'
     },
     {
-      text: '类的继承(ES5)',
-      link: '/best-practice/class-extends/'
+      text: 'node-sass安装问题',
+      link: '/best-practice/node-sass/'
     }
   ],
   '/common-components/': [
@@ -89,11 +89,15 @@ export default {
   '/handwriting/': [
     {
       text: '深拷贝',
-      link: '/handwriting/deepClone/'
+      link: '/handwriting/deep-clone/'
     },
     {
       text: 'Promise.all',
-      link: '/handwriting/promiseAll/'
+      link: '/handwriting/promise-all/'
+    },
+    {
+      text: '类的继承(ES5)',
+      link: '/handwriting/class-extends/'
     }
   ],
   '/': []
